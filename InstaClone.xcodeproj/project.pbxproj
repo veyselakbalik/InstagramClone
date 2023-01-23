@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		43F134474F30B14338819A14 /* Pods_InstaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1300D255793B95631A17F5 /* Pods_InstaClone.framework */; };
+		734ED49E297C6C2800780209 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED49D297C6C2800780209 /* FeedVC.swift */; };
+		734ED4A0297C6C3D00780209 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED49F297C6C3D00780209 /* UploadVC.swift */; };
+		734ED4A2297C6C5400780209 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734ED4A1297C6C5400780209 /* SettingsVC.swift */; };
 		739C0E97297B217E00B69C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C0E96297B217E00B69C01 /* AppDelegate.swift */; };
 		739C0E99297B217E00B69C01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C0E98297B217E00B69C01 /* SceneDelegate.swift */; };
 		739C0E9B297B217E00B69C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C0E9A297B217E00B69C01 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 		0E1300D255793B95631A17F5 /* Pods_InstaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3015915726E355985D968A67 /* Pods-InstaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaClone.debug.xcconfig"; path = "Target Support Files/Pods-InstaClone/Pods-InstaClone.debug.xcconfig"; sourceTree = "<group>"; };
 		41BA3EDA6DB03742B63A180D /* Pods-InstaClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaClone.release.xcconfig"; path = "Target Support Files/Pods-InstaClone/Pods-InstaClone.release.xcconfig"; sourceTree = "<group>"; };
+		734ED49D297C6C2800780209 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		734ED49F297C6C3D00780209 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		734ED4A1297C6C5400780209 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		739C0E93297B217E00B69C01 /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739C0E96297B217E00B69C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739C0E98297B217E00B69C01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				739C0E96297B217E00B69C01 /* AppDelegate.swift */,
 				739C0E98297B217E00B69C01 /* SceneDelegate.swift */,
 				739C0E9A297B217E00B69C01 /* ViewController.swift */,
+				734ED49D297C6C2800780209 /* FeedVC.swift */,
+				734ED49F297C6C3D00780209 /* UploadVC.swift */,
+				734ED4A1297C6C5400780209 /* SettingsVC.swift */,
 				739C0E9C297B217E00B69C01 /* Main.storyboard */,
 				739C0E9F297B217F00B69C01 /* Assets.xcassets */,
 				739C0EA1297B217F00B69C01 /* LaunchScreen.storyboard */,
@@ -83,7 +92,6 @@
 				3015915726E355985D968A67 /* Pods-InstaClone.debug.xcconfig */,
 				41BA3EDA6DB03742B63A180D /* Pods-InstaClone.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734ED49E297C6C2800780209 /* FeedVC.swift in Sources */,
 				739C0E9B297B217E00B69C01 /* ViewController.swift in Sources */,
 				739C0E97297B217E00B69C01 /* AppDelegate.swift in Sources */,
+				734ED4A0297C6C3D00780209 /* UploadVC.swift in Sources */,
 				739C0E99297B217E00B69C01 /* SceneDelegate.swift in Sources */,
+				734ED4A2297C6C5400780209 /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
